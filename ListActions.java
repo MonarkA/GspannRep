@@ -16,7 +16,7 @@ public class ListActions {
 		for (int i = 0; i < 100; i++) {
 			arrayList.add(i);
 		}
-		System.out.println("Arraylist add time with 100 elements(in ms) : "+(System.currentTimeMillis()-startTime));
+		System.out.println("Arraylist add time with 100 elements(in ms): "+(System.currentTimeMillis()-startTime));
 		
 		linkedList = new LinkedList<Integer>();
 		startTime = System.currentTimeMillis();
