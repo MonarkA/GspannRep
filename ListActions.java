@@ -13,17 +13,17 @@ public class ListActions {
 		Long startTime = System.currentTimeMillis();
 		arrayList = new ArrayList<Integer>();
 		startTime = System.currentTimeMillis();
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 10000; i++) {
 			arrayList.add(i);
 		}
-		System.out.println("Arraylist add time with 1000 elements(in ms) : "+(System.currentTimeMillis()-startTime));
+		System.out.println("Arraylist add time with 10000 elements(in ms) : "+(System.currentTimeMillis()-startTime));
 		
 		linkedList = new LinkedList<Integer>();
 		startTime = System.currentTimeMillis();
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 10000; i++) {
 			linkedList.add(i);
 		}
-		System.out.println("LinkedList add time with 1000 elements(in ms) : "+(System.currentTimeMillis()-startTime));
+		System.out.println("LinkedList add time with 10000 elements(in ms) : "+(System.currentTimeMillis()-startTime));
 		
 		
 	}
