@@ -11,21 +11,19 @@ public class ListActions {
 	public static void main(String[] args) {
 
 		Long startTime = System.currentTimeMillis();
-		arrayList = new ArrayList<Integer>();
-		startTime = System.currentTimeMillis();
-		for (int i = 0; i < 100; i++) {
+	
+		for (int i = 0; i < 10; i++) {
 			arrayList.add(i);
 		}
-		System.out.println("Arraylist add time with 100 elements(in ms) : "+(System.currentTimeMillis()-startTime));
+		System.out.println("Arraylist add time with 10 elements(in ms) : "+(System.currentTimeMillis() - startTime));
 		
-		linkedList = new LinkedList<Integer>();
-		startTime = System.currentTimeMillis();
-		for (int i = 0; i < 100; i++) {
+		
+		for (int i = 0; i < 10; i++) {
 			linkedList.add(i);
 		}
-		System.out.println("LinkedList add time with 100 elements(in ms) : "+(System.currentTimeMillis()-startTime));
-		
-		
+		System.out.println("LinkedList add time with 10 elements(in ms) : "+(System.currentTimeMillis() - startTime));
+			
+
 	}
 
 }
