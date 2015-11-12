@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="demoSuite" parallel="tests">
+	<tests>
+		<test name="smokeTest">
+			<parameter name="browser" value="firefox" />
+			<classes>
+				<class name="com.maven.test.DataProviderTest"></class>
+			</classes>
+		</test>
+		<test name="smokeTest2">
+			<parameter name="browser" value="chrome" />
+			<classes>
+				<class name="com.maven.test.ParallelTest"></class>
+			</classes>
+		</test>
+	</tests>
+</suite>

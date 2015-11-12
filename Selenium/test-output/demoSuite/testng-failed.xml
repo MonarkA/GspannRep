@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demoSuite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="smokeTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.maven.test.DataProviderTest">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.maven.test.DataProviderTest -->
+    </classes>
+  </test> <!-- smokeTest(failed) -->
+</suite> <!-- Failed suite [demoSuite] -->
